@@ -1,0 +1,18 @@
+To kill process running on a port:
+
+This fuser 8080/tcp will print you PID of process bound on that port.
+
+And this fuser -k 8080/tcp will kill that process.
+
+
+SSH Commands
+
+Gateway 	-> ssh -i ~/.ssh/id_geni_ssh_rsa e2171643@134.94.144.30 -p 22
+
+u1		-> ssh -i ~/.ssh/id_geni_ssh_rsa e2171643@134.94.144.19 -p 22
+u2		-> ssh -i ~/.ssh/id_geni_ssh_rsa e2171643@131.94.144.18 -p 22
+u3		-> ssh -i ~/.ssh/id_geni_ssh_rsa e2171643@131.94.144.17 -p 22
+
+t1		-> ssh -i ~/.ssh/id_geni_ssh_rsa e2171643@131.94.144.20 -p 22
+t2		-> ssh -i ~/.ssh/id_geni_ssh_rsa e2171643@131.94.144.29 -p 22
+t3		-> ssh -i ~/.ssh/id_geni_ssh_rsa e2171643@131.94.144.28 -p 22
